@@ -67,6 +67,6 @@ const modalMessageList = [
   { "number": 21, "message": "소망과 기대를 가슴에 품고 새로운 시작을 준비해보세요." },
   { "number": 22, "message": "따뜻한 불빛과 함께 세상을 밝혀보세요." },
   { "number": 23, "message": "마음을 따뜻하게 하는 작은 선물을 나눠보세요." },
-  { "number": 24, "message": 평화로운 밤을 보내고 새로운 희망을 품어보세요." }
+  { "number": 24, "message": "평화로운 밤을 보내고 새로운 희망을 품어보세요." }
 ];
 
