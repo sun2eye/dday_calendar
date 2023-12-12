@@ -45,7 +45,7 @@ function showModal(imageUrl, text) {
 
 const modalMessageList = [
   { "number": 1, "message": "크리스마스가 다가오니 설레는 마음이 가득해져요." },
-  { "number": 2, "message": "크리스마스 트리를 꾸미는 마음으로 기다려지는 순간이에요."" },
+  { "number": 2, "message": "크리스마스 트리를 꾸미는 마음으로 기다려지는 순간이에요." },
   { "number": 3, "message": "크리스마스 캐롤을 듣고 행복한 기분에 취해보세요." },
   { "number": 4, "message": "크리스마스 선물을 준비하는데 설레는 마음이 가득해져요." },
   { "number": 5, "message": "따뜻한 가족의 온기를 느껴보세요." },
