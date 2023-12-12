@@ -1,7 +1,7 @@
 body {
   background-image: url("image/bg.png");
-  background-size: cover;
-  background-position: contain;
+  background-size: contain;
+  background-position: center;
 }
 
 body {
