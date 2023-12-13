@@ -29,6 +29,7 @@ setInterval(updateCountdown, 1000);
 
 // 날짜 기준 카드 오픈 기능
 const doors = document.querySelectorAll('.door');
+showModal(imageUrl, text);
 doors.forEach((door, index) => {
   door.addEventListener('click', () => {
     // 현재 한국 시간을 얻어오기
@@ -37,6 +38,7 @@ doors.forEach((door, index) => {
     // 각 날짜에 해당하는 날짜를 계산
     const openDate = new Date(2023, 11, index + 1); // 2023년 12월 1일부터 시작
 
+    
     // 현재 날짜가 열 수 있는 날짜 이후인지 확인
     if (now.getTime() > openDate.getTime()) {
       // 여기에 모달을 열거나 특정 동작을 수행하는 코드 추가
@@ -55,7 +57,6 @@ doors.forEach((door, index) => {
       // showModal 함수를 호출하여 모달을 표시합니다.
       showModal(imageUrl, text);
       // alert('이벤트 캘린더를 엽니다.');
-
     } else {
       // 현재 날짜가 열 수 있는 날짜보다 이전인 경우 몇 일 후에 열 수 있다는 메시지를 표시
       const daysRemaining = Math.ceil((openDate - now) / (1000 * 60 * 60 * 24));
