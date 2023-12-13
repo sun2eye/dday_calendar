@@ -29,7 +29,6 @@ setInterval(updateCountdown, 1000);
 
 // 날짜 기준 카드 오픈 기능
 const doors = document.querySelectorAll('.door');
-showModal(imageUrl, text);
 doors.forEach((door, index) => {
   door.addEventListener('click', () => {
     // 현재 한국 시간을 얻어오기
